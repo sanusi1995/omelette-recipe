@@ -1,0 +1,129 @@
+body{
+    background-color: #f5e4ce;
+}
+
+.home{
+    max-width: 600px ;
+    height: 1570px;
+    bottom: 200px ;
+    padding: 20px;
+    border: 100px;
+    border-radius: 40px;
+    background-color: white;
+    margin: auto;
+}
+
+.img1{
+    width: 600px;
+    height: 300px ;
+    border-radius: 40px;
+}
+
+.tag1{
+    color:  darkred;
+    margin-left: -20px;
+}
+
+.layer1{
+    background-color: rgb(240, 199, 215);
+    border-radius: 10px; 
+    padding-top: 2px;   
+    justify-self: auto;
+    opacity: 0.5;
+}
+
+.tag2{
+    color: darkred;
+    margin-left: -20px;
+}
+
+.layer2{
+    padding: 10px;  
+    margin-left: 20px; 
+    margin-top: -30px;   
+}
+
+.underline1{
+    content-visibility: px white;
+    margin-left: -20px;
+    opacity: 0.2;
+}
+
+.tag3{
+    color: darkred;
+    margin-left: -20px;
+}
+
+.layer3{
+    border-radius: 10px;
+    padding: 10px;  
+    margin-left: 20px; 
+    margin-top: -50px;
+    line-height: 30.9px;
+}
+
+ol li {
+    counter-increment: list;
+    list-style-type: none;
+    position: relative;
+  }
+
+  ol li:before {
+    color:  darkred;
+    content: counter(list) ".";
+    left:-32px;
+    position: absolute;
+    text-align: right;
+    width: 26px;
+    
+  }
+
+.underline3{
+    content-visibility: px white;
+    margin-left: -20px;
+    opacity: 0.2;
+}
+
+.tag4{
+    color: darkred;
+    margin-left: -20px;
+}
+
+.layer4{
+    background:white;
+    border-radius: 10px;
+    padding: 10px;  
+    margin-left: 20px; 
+    margin-top: -50px;
+    line-height: 30.9px;
+}
+
+.note{
+    margin-left: -20px;
+}
+
+.quantity1{
+    margin-left: 230px;
+    color: darkred;
+}
+
+.quantity2{
+    margin-left: 246px;
+    color: darkred;
+}
+
+.quantity3{
+    margin-left: 235px;
+    color: darkred;
+}
+
+.quantity4{
+    margin-left: 265px;
+    color: darkred;
+}
+
+.underline4{
+    content-visibility: px white;
+    margin-left: -20px;
+    opacity: 0.2;
+}
